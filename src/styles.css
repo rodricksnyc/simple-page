@@ -1,0 +1,89 @@
+body, html {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow-x:hidden;
+}
+
+.blueBackground h1{
+  font-size:2rem;
+  text-transform: uppercase;
+}
+
+.blueBackground h2{
+  font-size:1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  padding:.5em 0em
+}
+
+.main{
+  background: #f7f7f7
+}
+
+.padding-0{
+  padding:0
+}
+
+
+.blueBackground{
+  background: #3951b1;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+  justify-content: flex-start;
+
+}
+
+.white{
+  color:white
+}
+
+.whiteBox{
+  background: white;
+  margin:1em 0em;
+  padding:1em 2em;
+  border-radius: .25rem;
+  box-shadow: 0px 4px 11px -1px rgba(130,130,130,0.33);
+  -webkit-box-shadow: 0px 4px 11px -1px rgba(130,130,130,0.33);
+  -moz-box-shadow: 0px 4px 11px -1px rgba(130,130,130,0.33);
+}
+
+.whiteBox p{
+  font-weight: 700
+}
+.whiteBox p span.light{
+  font-weight: 300
+}
+
+.whiteBox p.name{
+  font-size:1.2em
+}
+
+
+@media (min-width:992px){
+  .blueBackground{
+    height: 100%
+
+  }
+  .whiteBox{
+    margin-right:2.4%
+  }
+
+  .blueBackground h2 {
+    background: rgb(51, 73, 159);
+    width: 110%;
+    position: relative;
+    left: -6%;
+    right: 0;
+    padding-left: 6%;
+
+  }
+}
+
+@media (max-width:991px){
+    .whiteBox{
+      margin: 1em 1.5em;
+    }
+}
